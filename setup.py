@@ -282,7 +282,7 @@ install_requires = [
 
 setup(
     name="transformers",
-    version="4.4.0.dev0",  # expected format is one of x.y.z.dev0, or x.y.z.rc1 or x.y.z (no to dashes, yes to dots)
+    version="4.3.3",  # expected format is one of x.y.z.dev0, or x.y.z.rc1 or x.y.z (no to dashes, yes to dots)
     author="Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Sam Shleifer, Patrick von Platen, Sylvain Gugger, Google AI Language Team Authors, Open AI team Authors, Facebook AI Authors, Carnegie Mellon University Authors",
     author_email="thomas@huggingface.co",
     description="State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch",
@@ -290,7 +290,7 @@ setup(
     long_description_content_type="text/markdown",
     keywords="NLP deep learning transformer pytorch tensorflow BERT GPT GPT-2 google openai CMU",
     license="Apache",
-    url="https://github.com/huggingface/transformers",
+    url="https://github.com/umbertopietroni/transformers.git",
     package_dir={"": "src"},
     packages=find_packages("src"),
     extras_require=extras,
